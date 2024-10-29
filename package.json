@@ -1,0 +1,23 @@
+{
+  "name": "serleve",
+  "version": "1.0.0",
+  "description": "Rede Social de Receitas",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run api\" \"npm run frontend\"",
+    "api": "cd api && nest start --watch",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "serleve"
+  },
+  "keywords": [
+    "rede",
+    "social",
+    "receita",
+    "receitas"
+  ],
+  "author": "Tiago Salviano",
+  "license": "MIT"
+}
