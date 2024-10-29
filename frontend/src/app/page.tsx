@@ -21,7 +21,6 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
-          <li>Some random shit to see if it is working</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

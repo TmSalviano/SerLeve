@@ -10,7 +10,7 @@ exports.AppService = void 0;
 const common_1 = require("@nestjs/common");
 let AppService = class AppService {
     getHello() {
-        return 'I came to Rome as a city of bricks, left it a city of marble.';
+        return 'I came to Rome as a city of bricks, left it a city of marble';
     }
 };
 exports.AppService = AppService;
