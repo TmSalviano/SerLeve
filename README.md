@@ -1,3 +1,3 @@
 # Dependencies
 ## Npm Packages
-- concurrently
+- concurrently - ```npm install -g concurrently```
